@@ -5,7 +5,7 @@ The **Log File Analyzer** is a Python script that analyzes log files to extract 
 ## Features
 - **IP Address Request Counts**: Displays the count of requests made from each IP address.
 - **Most Accessed Endpoint**: Identifies the most frequently accessed endpoint from the log data.
-- **Suspicious Login Activity Detection**: Flags IP addresses with failed login attempts above a specified threshold (default threshold is 10).
+- **Suspicious Login Activity Detection**: Flags IP addresses with failed login attempts above a specified threshold.
 - **CSV Export**: Saves the analysis results into a CSV file for easy sharing or further processing.
 
 ## Requirements
@@ -29,3 +29,21 @@ The **Log File Analyzer** is a Python script that analyzes log files to extract 
    ```bash
    python log_file_analyzer.py
     ```
+3. Output should look like this:
+```bash
+--- IP Address Requests ---
+IP Address                              Request Count
+203.0.113.5                             8
+198.51.100.23                           8
+192.168.1.1                             7
+10.0.0.2                                6
+192.168.1.100                           5
+
+
+--- Most Frequently Accessed Endpoint ---
+/login (Accessed 13 times)
+
+--- Suspicious Activity Detected ---
+IP Address                              Failed Login Attempts
+203.0.113.5                             8
+```

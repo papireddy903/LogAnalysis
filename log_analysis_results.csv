@@ -10,6 +10,6 @@ Most Accessed Endpoint
 Endpoint,Access Count
 /login,13
 
-Suspicious Activity Detected:
+Suspicious Activity Detected
 IP Address,Failed Login Count
 203.0.113.5,8
