@@ -27,7 +27,7 @@ The **Log File Analyzer** is a Python script that analyzes log files to extract 
 2. Run the script from the command line:
 
    ```bash
-   python log_file_analyzer.py
+   python main.py
     ```
 3. Output should look like this:
 ```bash
